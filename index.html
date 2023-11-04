@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/16b7746f8e.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="./assets/css/style.css">
+ <title>Calculator</title>
+ <meta name="theme-color" content="#3F4D74">
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="shortcut icon" type="image/png" href="./assets/images/icon-64.svg">
+  <link rel="apple-touch-icon" href="./assets/images/icon-64.svg">
+  <link rel="apple-touch-startup-image" href="./assets/images/icon-64.svg">
+  <link rel="manifest" href="./manifest.json">
+</head>
+<body class ="body">
+ <section class="calculator-container">
+  <section class ="calculator--theme">
+   <h1>calc</h1>
+   <div class ="theme-container">
+    <h2>theme</h2>
+
+    <div class ="theme-button">
+     <div class="indicators-button">
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+     </div>
+     <form class ="theme-button--selector">
+     <input type="radio" id ="one"><label for="one"></label>
+      <input type="radio" id ="two"><label for="two"></label>
+      <input type="radio" id ="three"><label for="three"></label>
+      <span class="selector--active"></span>
+     </form>
+    </div>
+   </div>
+  </section>
+   <section id ="result"class ="calculator-result" lang="es">
+    <div id ="value-prev"></div>
+    <div id ="value-current"></div>
+   </section>
+   <section type="number" class="calculator-operators">
+    <div class="operation-container">
+     <button type="button" class="operators-item-a-operators" onclick="display.del()">DEL</button>
+     <button type="button" class="operators-item">7</button>
+     <button type="button" class="operators-item">8</button>
+     <button type="button" class="operators-item">9</button>
+    <button type ="button" class="operators-item">4</button>
+    <button type ="button" class="operators-item">5</button>
+    <button type ="button" class="operators-item">6</button>
+    <button type ="button" class="operators-item--operators" value= "add" ><i class="fa-solid fa-plus"></i></button>
+    <button type ="button" class="operators-item">1</button>
+    <button type ="button" class="operators-item">2</button>
+    <button type ="button" class="operators-item">3</button>
+    <button type ="button" class="operators-item--operators" value = "subtract"><i class="fa-solid fa-minus"></i></button>
+    <button type ="button" class="operators-item">.</button>
+    <button type ="button" class="operators-item">0</button>
+    <button type ="button" class="operators-item--operators" value = "split"><i class="fa-solid fa-divide"></i></button>
+    <button type ="button" class="operators-item--operators" value = "multiply"><i class="fa-solid fa-xmark"></i></button>
+    <button type ="button" class="operators-item--operators" value = "enhance"><i class="fa-solid fa-superscript"></i></button>
+    <button type ="button" class="operators-item--operators" value = "root"><i class="fa-solid fa-square-root-variable"></i></button>
+    <button type ="button" class="operators-item-a-operators" onclick="display.reset()">AC</button>
+    <button type ="button" class="operators-item--operators" value = "same"><i class="fa-solid fa-equals"></i></button>
+   </div>
+  </section>
+ </section>
+ <script src ="./assets/scripts/pwa.js"></script>
+ <script src ="./assets/scripts/theme.js"></script>
+ <script src ="./assets/scripts/Display.js"></script>
+ <script src ="./assets/scripts/Calculator.js"></script>
+ <script src ="./assets/scripts/index.js"></script>
+</body>
+</html>
