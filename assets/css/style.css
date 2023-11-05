@@ -61,6 +61,14 @@ body.body{
  background-color:var(--background-1);
 }
 
+body.theme_2{
+    background-color: var(--background-2);
+}
+
+body.theme_3{
+    background-color: var(--background-3);
+}
+
 .calculator-container{
  width: 33%;
  min-width: 500px;

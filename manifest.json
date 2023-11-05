@@ -3,7 +3,7 @@
     "short_name": "calculator",
     "description": "calculadora web",
     "background_color": "#2B2B2B",
-    "theme_color": "#F0DB4F",
+    "theme_color": "#181F32",
     "orientation": "portrait",
     "display": "standalone",
     "start_url": "./?utm_source=web_app_manifest",
@@ -13,32 +13,32 @@
       {
         "src": "./assets/images/icon-256.svg",
         "sizes": "256x256",
-        "type": "image/svg"
+        "type": "image/svg+xml"
       },
       {
         "src": "./assets/images/icon-213.svg",
         "sizes": "213x213",
-        "type": "image/svg"
+        "type": "image/svg+xml"
       },
       {
         "src": "./assets/images/icon-156.svg",
         "sizes": "156x156",
-        "type": "image/svg"
+        "type": "image/svg+xml"
       },
       {
         "src": "./assets/images/icon-123.svg",
         "sizes": "123x123",
-        "type": "image/svg"
+        "type": "image/svg+xml"
       },
       {
         "src": "./assets/images/icon-82.svg",
         "sizes": "82x82",
-        "type": "image/svg"
+        "type": "image/svg+xml"
       },
       {
         "src": "./assets/images/icon-64.svg",
         "sizes": "64x64",
-        "type": "image/svg"
+        "type": "image/svg+xml"
       }
     ]
   }
