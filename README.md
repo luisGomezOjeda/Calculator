@@ -1,3 +1,2 @@
-# calculator
-https://luisgomezojeda.github.io/calculator/
-# Calculadora
+# Calculator
+https://luisgomezojeda.github.io/Calculator/
